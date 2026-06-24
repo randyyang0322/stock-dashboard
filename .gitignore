@@ -1,0 +1,8 @@
+# 以下只留本地,絕不上傳公開 repo
+publish.sh
+encrypt.mjs
+setpw.sh
+.dash_pw
+.last_src_sha
+_plain.html
+.DS_Store
