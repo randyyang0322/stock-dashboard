@@ -6,3 +6,6 @@ setpw.sh
 .last_src_sha
 _plain.html
 .DS_Store
+.growth_pw
+publish_growth.sh
+.last_growth_sha
