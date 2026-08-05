@@ -9,3 +9,5 @@ _plain.html
 .growth_pw
 publish_growth.sh
 .last_growth_sha
+publish_reports.sh
+.last_reports_sha
