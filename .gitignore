@@ -13,3 +13,12 @@ publish_reports.sh
 .last_reports_sha
 .reports_pw
 setpw_reports.sh
+
+# publish_all.sh(清單驅動的統一發佈腳本)與它的清單檔。
+# manifest 只寫密碼檔的「檔名」不寫內容,但裡面全是本機絕對路徑
+# (家目錄結構、專案名),公開 repo 沒必要曝光 → 一律留本地。
+publish_all.sh
+pages_manifest.json
+.last_chips_cn_sha
+# 加密中途的暫存檔:驗證沒過就會留在這裡,絕不可以被 commit 上去
+*.tmp
