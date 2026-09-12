@@ -20,5 +20,6 @@ setpw_reports.sh
 publish_all.sh
 pages_manifest.json
 .last_chips_cn_sha
+.last_calendar_sha
 # 加密中途的暫存檔:驗證沒過就會留在這裡,絕不可以被 commit 上去
 *.tmp
