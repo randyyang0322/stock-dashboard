@@ -24,3 +24,6 @@ pages_manifest.json
 .last_calendar_sha
 # 加密中途的暫存檔:驗證沒過就會留在這裡,絕不可以被 commit 上去
 *.tmp
+
+# Cloudflare Pages 部署腳本(讀本機鑰匙檔;正本在個股研究 reports/tools/site_auth/)
+publish_cloudflare.sh
